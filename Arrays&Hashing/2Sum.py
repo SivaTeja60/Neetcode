@@ -1,4 +1,6 @@
 def twoSum(nums,target):
+
+    #Time complexity - O(n)
     prevNum={}
     for i,n in enumerate(nums):
         if target-n in prevNum:
