@@ -16,3 +16,7 @@ Lookups are faster in dictionaries because Python implements them using hash tab
 If we explain the difference by Big O concepts, dictionaries have constant time complexity, O(1) while lists have linear time complexity, O(n).
 
 [Reference](https://towardsdatascience.com/faster-lookups-in-python-1d7503e9cd38)
+
+## List & Tuples
+List is not hashable and tuple is hashable
+Tuples are similar to lists but are immutable. 
