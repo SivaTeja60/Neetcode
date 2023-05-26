@@ -20,3 +20,21 @@ If we explain the difference by Big O concepts, dictionaries have constant time 
 ## List & Tuples
 List is not hashable and tuple is hashable
 Tuples are similar to lists but are immutable. 
+
+## Sorting a Dictionary 
+If we use sorted() function dictionary will return list of keys.
+
+Lets say dict1={}
+To sort this in descending order we have to use 
+
+```
+dict1=sorted(dict1.items(), key = lambda x:x[1], reverse=True)
+```
+The above function gives list of key-value pair tuples 
+To convert it back to dictionary use dict() method
+dict1=dict(dict1)
+
+[Reference](https://www.freecodecamp.org/news/sort-dictionary-by-value-in-python/)
+
+
+
