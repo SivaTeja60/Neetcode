@@ -21,6 +21,9 @@ If we explain the difference by Big O concepts, dictionaries have constant time 
 List is not hashable and tuple is hashable
 Tuples are similar to lists but are immutable. 
 
+## Set
+set data structure is referred as Unordered Collections of Unique Elements and that doesn't support operations like indexing or slicing etc.
+
 ## Sorting a Dictionary 
 If we use sorted() function dictionary will return list of keys.
 
